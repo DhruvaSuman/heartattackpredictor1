@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%umim)ppzh@!rlw_9f@*j_7w**o089rdm!y6wg#tk*_m+d73qs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["heartattackpredictor1.herokuapp.com/","local host"]
 
 
 # Application definition

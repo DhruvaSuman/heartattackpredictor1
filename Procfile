@@ -1,1 +1,1 @@
-web: gunicorn HeartAttack.wsgi:application
+web: gunicorn HeartAttack.wsgi --log-file .
